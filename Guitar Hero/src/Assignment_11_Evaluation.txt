@@ -1,0 +1,12 @@
+Name: Eric Erickson
+Grader: Megan Avery
+
+Correctness: 13/15
+Style: 4/5
+
+Total: 17
+
+Comments: 
+Should have used global Random object in Hippo class (-1)
+Longhorn didn't win (-1)
+Failed Hippo movement (-1)

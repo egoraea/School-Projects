@@ -1,0 +1,13 @@
+Name: Eric Erickson
+Grader: Megan Avery
+
+Correctness: 10/10
+Style: 7/10
+
+Total: 17
+
+Comments: 
+No class constants (-1)
+Should have used array for percentages (-1)
+Redundancy - determining personality (-1)
+

@@ -1,0 +1,11 @@
+Name: Eric Erickson
+Grader: Megan Avery
+
+Correctness: 9/10
+Style: 9/10
+
+Total: 18
+
+Comments: 
+Magic numbers - decay factor and sampling rate (-1)
+No full list of keys to press shown on screen (-1)
