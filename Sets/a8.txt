@@ -1,0 +1,157 @@
+/* 
+*
+ * Student information for assignment:
+ *
+ *  On my honor, Eric Erickson, this programming assignment is my own work
+ *  and I have not provided this code to any other student.
+ *
+ *  UTEID:eje444
+ *  email address: egoraea@gmail.com
+ *  Grader name:Aaron
+ *  Number of slip days I am using:0
+ */
+
+TOTAL(19/20)
+
+Correctness: (10/10)
+
+Testing: (2/2)
+
+Style and Documentation: (7/8)
+
+LetterInventory:
+-1 if no class constant for size of current alphabet 26
+
+AnagramSolver
+
+Please put spaces between the end of one method and the header of the next...really helps readability
+
+
+====================BUILD ERRORS=====================
+
+=================TEST OUTPUT FOLLOWS=================
+TEST SUMMARY
+
+Test name: CS 314 Assignment 8 Anagram Test
+
+Results: Passed: 104, Failed: 0, No result: 0
+
+Classes tested:
+* class LetterInventory, loaded from file:/v/filer4b/v38q001/adishman/Desktop/grade8/a8/a8/egoraea/
+* class AnagramSolver, loaded from file:/v/filer4b/v38q001/adishman/Desktop/grade8/a8/a8/egoraea/
+
+Environment:       Java version 1.7.0_51, maximum heap size 3557 MB, running on Linux 3.2.0-59-generic (amd64)
+Java class path:   ../../../data/bevotest.jar:./
+Working directory: /v/filer4b/v38q001/adishman/Desktop/grade8/a8/a8/egoraea
+Test start time:   2014-03-31 10:42:17 CDT
+Test end time:     2014-03-31 10:42:41 CDT
+Test elapsed time: 24.362 s
+
+
+TEST LOG
+  1 | Passed    | Run time: 0 ms           | Constructor 1
+  2 | Passed    | Run time: 0 ms           | Constructor 2
+  3 | Passed    | Run time: 0 ms           | Constructor 3
+  4 | Passed    | Run time: 0 ms           | Constructor 4
+  5 | Passed    | Run time: 0 ms           | Get 1
+  6 | Passed    | Run time: 0 ms           | Get 2
+  7 | Passed    | Run time: 0 ms           | Get 3
+  8 | Passed    | Run time: 0 ms           | Get 4
+  9 | Passed    | Run time: 0 ms           | Get 5
+ 10 | Passed    | Run time: 0 ms           | Size 1
+ 11 | Passed    | Run time: 0 ms           | Size 2
+ 12 | Passed    | Run time: 0 ms           | Size 3
+ 13 | Passed    | Run time: 0 ms           | Size 4
+ 14 | Passed    | Run time: 0 ms           | isEmpty 1
+ 15 | Passed    | Run time: 0 ms           | isEmpty 2
+ 16 | Passed    | Run time: 0 ms           | isEmpty 3
+ 17 | Passed    | Run time: 0 ms           | isEmpty 4
+ 18 | Passed    | Run time: 0 ms           | toString 1
+ 19 | Passed    | Run time: 0 ms           | toString 2
+ 20 | Passed    | Run time: 0 ms           | toString 3
+ 21 | Passed    | Run time: 0 ms           | toString 4
+ 22 | Passed    | Run time: 0 ms           | Add 1
+ 23 | Passed    | Run time: 0 ms           | Add 2
+ 24 | Passed    | Run time: 0 ms           | Add 3
+ 25 | Passed    | Run time: 0 ms           | Add 4
+ 26 | Passed    | Run time: 0 ms           | Add 5
+ 27 | Passed    | Run time: 0 ms           | Add 6
+ 28 | Passed    | Run time: 0 ms           | Subtract 1
+ 29 | Passed    | Run time: 0 ms           | Subtract 2
+ 30 | Passed    | Run time: 0 ms           | Subtract 3
+ 31 | Passed    | Run time: 0 ms           | Subtract 4
+ 32 | Passed    | Run time: 0 ms           | Subtract 5
+ 33 | Passed    | Run time: 0 ms           | Subtract 6
+ 34 | Passed    | Run time: 0 ms           | Subtract 7
+ 35 | Passed    | Run time: 0 ms           | Subtract 8
+ 36 | Passed    | Run time: 0 ms           | Subtract 9
+ 37 | Passed    | Run time: 0 ms           | Equals 1
+ 38 | Passed    | Run time: 0 ms           | Equals 2
+ 39 | Passed    | Run time: 0 ms           | Equals 3
+ 40 | Passed    | Run time: 0 ms           | Equals 4
+ 41 | Passed    | Run time: 0 ms           | Equals 5
+ 42 | Passed    | Run time: 0 ms           | Equals 6
+ 43 | Passed    | Run time: 0 ms           | Equals 7
+ 44 | Passed    | Run time: 0 ms           | Equals 8
+ 45 | Passed    | Run time: 0 ms           | Equals 9
+ 46 | Passed    | Run time: 0 ms           | Equals 10
+ 47 | Passed    | Run time: 0 ms           | Equals 11
+ 48 | Passed    | Run time: 0 ms           | Equals 12
+ 49 | Passed    | Run time: 0 ms           | Equals 13
+ 50 | Passed    | Run time: 16 ms          | Anagram Solver Test 1
+ 51 | Passed    | Run time: 9 ms           | Anagram Solver Test 2
+ 52 | Passed    | Run time: 5 ms           | Anagram Solver Test 3
+ 53 | Passed    | Run time: 23 ms          | Anagram Solver Test 4
+ 54 | Passed    | Run time: 2 ms           | Anagram Solver Test 5
+ 55 | Passed    | Run time: 3 ms           | Anagram Solver Test 6
+ 56 | Passed    | Run time: 9 ms           | Anagram Solver Test 7
+ 57 | Passed    | Run time: 2 ms           | Anagram Solver Test 8
+ 58 | Passed    | Run time: 6 ms           | Anagram Solver Test 9
+ 59 | Passed    | Run time: 121 ms         | Anagram Solver Test 10
+ 60 | Passed    | Run time: 2 ms           | Anagram Solver Test 11
+ 61 | Passed    | Run time: 2389 ms        | Anagram Solver Test 12
+ 62 | Passed    | Run time: 23 ms          | Anagram Solver Test 13
+ 63 | Passed    | Run time: 3 ms           | Anagram Solver Test 14
+ 64 | Passed    | Run time: 2 ms           | Anagram Solver Test 15
+ 65 | Passed    | Run time: 4 ms           | Anagram Solver Test 16
+ 66 | Passed    | Run time: 7 ms           | Anagram Solver Test 17
+ 67 | Passed    | Run time: 1097 ms        | Anagram Solver Test 18
+ 68 | Passed    | Run time: 8 ms           | Anagram Solver Test 19
+ 69 | Passed    | Run time: 1274 ms        | Anagram Solver Test 20
+ 70 | Passed    | Run time: 7129 ms        | Anagram Solver Test 21
+ 71 | Passed    | Run time: 10 ms          | Anagram Solver Test 22
+ 72 | Passed    | Run time: 110 ms         | Anagram Solver Test 23
+ 73 | Passed    | Run time: 54 ms          | Anagram Solver Test 24
+ 74 | Passed    | Run time: 54 ms          | Anagram Solver Test 25
+ 75 | Passed    | Run time: 2 ms           | Anagram Solver Test 26
+ 76 | Passed    | Run time: 2 ms           | Anagram Solver Test 27
+ 77 | Passed    | Run time: 2 ms           | Anagram Solver Test 28
+ 78 | Passed    | Run time: 4 ms           | Anagram Solver Test 29
+ 79 | Passed    | Run time: 2 ms           | Anagram Solver Test 30
+ 80 | Passed    | Run time: 2 ms           | Anagram Solver Test 31
+ 81 | Passed    | Run time: 126 ms         | Anagram Solver Test 32
+ 82 | Passed    | Run time: 2184 ms        | Anagram Solver Test 33
+ 83 | Passed    | Run time: 55 ms          | Anagram Solver Test 34
+ 84 | Passed    | Run time: 5463 ms        | Anagram Solver Test 35
+ 85 | Passed    | Run time: 5 ms           | Anagram Solver Test 36
+ 86 | Passed    | Run time: 5 ms           | Anagram Solver Test 37
+ 87 | Passed    | Run time: 5 ms           | Anagram Solver Test 38
+ 88 | Passed    | Run time: 5 ms           | Anagram Solver Test 39
+ 89 | Passed    | Run time: 13 ms          | Anagram Solver Test 40
+ 90 | Passed    | Run time: 3 ms           | Anagram Solver Test 41
+ 91 | Passed    | Run time: 8 ms           | Anagram Solver Test 42
+ 92 | Passed    | Run time: 80 ms          | Anagram Solver Test 43
+ 93 | Passed    | Run time: 2 ms           | Anagram Solver Test 44
+ 94 | Passed    | Run time: 5 ms           | Anagram Solver Test 45
+ 95 | Passed    | Run time: 80 ms          | Anagram Solver Test 46
+ 96 | Passed    | Run time: 422 ms         | Anagram Solver Test 47
+ 97 | Passed    | Run time: 5 ms           | Anagram Solver Test 48
+ 98 | Passed    | Run time: 2 ms           | Anagram Solver Test 49
+ 99 | Passed    | Run time: 2 ms           | Anagram Solver Test 50
+100 | Passed    | Run time: 5 ms           | Anagram Solver Test 51
+101 | Passed    | Run time: 6 ms           | Anagram Solver Test 52
+102 | Passed    | Run time: 49 ms          | Anagram Solver Test 53
+103 | Passed    | Run time: 3405 ms        | Anagram Solver Test 54
+104 | Passed    | Run time: 7 ms           | Anagram Solver Test 55
+
+END OF TEST LOG
